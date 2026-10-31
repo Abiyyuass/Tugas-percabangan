@@ -3,14 +3,10 @@
 Program web sederhana untuk latihan percabangan (`if / else if / else`) dan perulangan (`for` dan `while`) menggunakan HTML, CSS, dan JavaScript.
 
 ## Struktur File
-
-```
 program-percabangan/
-├── index.html   # Struktur halaman
-├── style.css    # Tampilan
-├── script.js    # Logika program
-└── README.md    # Dokumentasi
-```
+index.html   # Struktur halaman
+style.css    # Tampilan
+script.js    # Logika program
 
 ## Cara Menjalankan
 
@@ -58,11 +54,3 @@ Cara kerjanya:
 - `angka % 10` mengambil digit terakhir.
 - `Math.floor(angka / 10)` membuang digit terakhir.
 - Perulangan berhenti saat `angka` sudah bernilai 0.
-
-## Konsep yang Dipelajari
-
-- Percabangan: `if`, `else if`, `else`
-- Perulangan: `for` dan `while`
-- Operator modulus (`%`) untuk mengecek kelipatan dan mengambil digit
-- Validasi input (angka kosong atau di luar rentang)
-- Manipulasi DOM dasar (`getElementById`, `createElement`, `addEventListener`)
