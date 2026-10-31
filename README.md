@@ -4,9 +4,9 @@ Program web sederhana untuk latihan percabangan (`if / else if / else`) dan peru
 
 ## Struktur File
 program-percabangan/
-index.html   # Struktur halaman
-style.css    # Tampilan
-script.js    # Logika program
+`index.html`   # Struktur halaman
+`style.css`    # Tampilan
+`script.js`    # Logika program
 
 ## Cara Menjalankan
 
