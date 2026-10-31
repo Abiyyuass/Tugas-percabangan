@@ -3,10 +3,11 @@
 Program web sederhana untuk latihan percabangan (`if / else if / else`) dan perulangan (`for` dan `while`) menggunakan HTML, CSS, dan JavaScript.
 
 ## Struktur File
+
 program-percabangan/
-`index.html`   # Struktur halaman
-`style.css`    # Tampilan
-`script.js`    # Logika program
+1. `index.html`   # Struktur halaman
+2. `style.css`    # Tampilan
+3. `script.js`    # Logika program
 
 ## Cara Menjalankan
 
