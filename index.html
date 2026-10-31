@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Latihan Percabangan & Perulangan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Latihan Percabangan & Perulangan</h1>
+    <p class="intro">Tiga program kecil: penilai nilai (if / else if), penghitung bilangan (for), dan penjumlah digit (while).</p>
+
+    <!-- Program 1: Percabangan -->
+    <section>
+      <h2>1. Penilai Nilai</h2>
+      <p class="hint">Masukkan nilai 0–100. Ada 5 kondisi: A, B, C, D, dan E.</p>
+      <div class="row">
+        <input type="number" id="inputNilai" placeholder="Contoh: 85" min="0" max="100">
+        <button id="btnNilai">Cek nilai</button>
+      </div>
+      <div class="hasil" id="hasilNilai">Hasil akan muncul di sini.</div>
+    </section>
+
+    <!-- Program 2: Perulangan for + percabangan -->
+    <section>
+      <h2>2. Daftar Bilangan (for)</h2>
+      <p class="hint">Masukkan angka N. Program menampilkan 1 sampai N lengkap dengan keterangannya.</p>
+      <div class="row">
+        <input type="number" id="inputN" placeholder="Contoh: 15" min="1" max="100">
+        <button id="btnBilangan">Tampilkan</button>
+      </div>
+      <ul class="daftar" id="hasilBilangan"></ul>
+    </section>
+
+    <!-- Program 3: Perulangan while -->
+    <section>
+      <h2>3. Jumlah Digit (while)</h2>
+      <p class="hint">Masukkan bilangan bulat positif. Program menjumlahkan semua digitnya.</p>
+      <div class="row">
+        <input type="number" id="inputDigit" placeholder="Contoh: 12345" min="0">
+        <button id="btnDigit">Hitung</button>
+      </div>
+      <div class="hasil" id="hasilDigit">Hasil akan muncul di sini.</div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

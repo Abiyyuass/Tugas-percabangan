@@ -1,0 +1,126 @@
+:root {
+  --bg: #f3f6f4;
+  --kartu: #ffffff;
+  --teks: #1d2b26;
+  --teks-lembut: #5b6b65;
+  --garis: #d5dfda;
+  --aksen: #1f6f5c;
+  --aksen-gelap: #175546;
+  --error: #b3261e;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--teks);
+  line-height: 1.6;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.5rem;
+}
+
+.intro {
+  margin: 0 0 2rem;
+  color: var(--teks-lembut);
+}
+
+section {
+  background: var(--kartu);
+  border: 1px solid var(--garis);
+  border-radius: 10px;
+  padding: 1.25rem 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin: 0 0 0.25rem;
+}
+
+.hint {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  color: var(--teks-lembut);
+}
+
+.row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid var(--garis);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--teks);
+}
+
+button {
+  padding: 0.6rem 1.1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--aksen);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover { background: var(--aksen-gelap); }
+
+input:focus-visible,
+button:focus-visible {
+  outline: 3px solid #8fd1bd;
+  outline-offset: 2px;
+}
+
+.hasil {
+  margin-top: 1rem;
+  padding: 0.85rem 1rem;
+  background: #eef4f1;
+  border-left: 4px solid var(--aksen);
+  border-radius: 4px;
+  white-space: pre-line;
+}
+
+.hasil.error {
+  background: #fbeceb;
+  border-left-color: var(--error);
+  color: var(--error);
+}
+
+.daftar {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.daftar li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0.25rem;
+  border-bottom: 1px solid var(--garis);
+}
+
+.daftar li:last-child { border-bottom: none; }
+
+.daftar .angka { font-weight: 600; }
+.daftar .ket { color: var(--teks-lembut); }
+.daftar .istimewa .ket { color: var(--aksen); font-weight: 600; }
